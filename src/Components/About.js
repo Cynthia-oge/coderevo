@@ -6,7 +6,7 @@ function About() {
           <img
             src="/images/custom_web.jpg"
             alt=""
-            className="rounded-full w-64 h-64 m-auto"
+            className="rounded-full w-64 h-64 m-auto object-cover"
           />
         </div>
         <div className="text-white mt-8 pl-6 lg:basis-2/5">

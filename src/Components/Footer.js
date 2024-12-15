@@ -27,7 +27,7 @@ coderevolution.tech@gmail.com</p>
                  </div>
             </div>
          
-            <div className="flex items-center gap-56 ml-6 text-white mt-6 lg:gap-28">
+            <div className="flex items-center gap-36 ml-6 md:gap-56 md:ml-6 text-white mt-6 lg:gap-28">
             <nav>
           <ul className="">
           <li className=" cursor-pointer ">

@@ -29,7 +29,7 @@ function Review() {
             <h3 className="ml-6 font-bold text-lg pt-2 lg:text-center"><span className="text-sky-500">Reviews</span> from our happy Customers</h3>
             <hr className="mx-6 my-4"/>
             <button className="cursor-pointer" onClick={handlePrev} aria-label="Previous">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 absolute top-40 left-10">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 absolute top-72 md:top-40 left-10">
             <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
             </svg>
             </button>
@@ -43,7 +43,7 @@ function Review() {
                 </div>
 
                  {/* Second Review */}
-        <div className=" hidden lg:grid text-center mx-6">
+        <div className=" hidden lg:grid text-center mx-4 md:mx-6 ">
           <p>{secondReview.text}
             </p>
           <p className="text-sm text-gray-500">- {secondReview.author}
@@ -53,7 +53,7 @@ function Review() {
 
             </div>
             <button className="cursor-pointer" onClick={handleNext} aria-label="Next">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 absolute end-12 bottom-36">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 absolute end-12 bottom-32 md:bottom-36">
             <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
             </svg>
             </button>
